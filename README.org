@@ -3,23 +3,22 @@
 #+AUTHOR: Iván Estévez Albuja
 
 
-*Code generated for the thesis 'Brain-Inspired Computing'*
-
+Code generated for the thesis 'Brain-Inspired Computing'
 * Experiments from Izquierdo et al. (2018)
 
 E. O. Olivares, E. J. Izquierdo and R. D. Beer, 'Potential role of a ventral nerve cord central
 pattern generator in forward and backward locomotion in Caenorhabditis elegans', Network
-Neuroscience, vol. 2, no. 3, pp. 323-343, 2018. DOI : 10.1162/netn_a_00036
+Neuroscience, vol. 2, no. 3, pp. 323-343, 2018. DOI: [[10.1162/netn_a_00036][10.1162/netn_a_00036]].
 
 
 ** 1-neuron experiments
-Files:
-- AVA_neuron.py
-- AVA_rectangles.py
-- RMD_neuron.py
-- RMD_rectangles.py
-
-Import: aux_functions.py
++ Files:
+  - AVA_neuron.py
+  - AVA_rectangles.py
+  - RMD_neuron.py
+  - RMD_rectangles.py
++ Import: 
+  - aux_functions.py
 
 ** 3-neuron circuit
 
@@ -28,35 +27,36 @@ Import: aux_functions.py
 
 ** Evolutionary optimization
 
-File: Izq_CPG_gen_alg.py
-
-Imports:
-- Izq_CPG_fitness_func.py
-- Izq_model.py
-- aux_functions.py
-- genetic_functions.py
++ File: 
+  - Izq_CPG_gen_alg.py
++ Imports:
+  - Izq_CPG_fitness_func.py
+  - Izq_model.py
+  - aux_functions.py
+  - genetic_functions.py
 
 
 * Experiments from Kunert et al. (2014)
 
 J. Kunert, E. Shlizerman and J. N. Kutz, 'Low-dimensional functionality of complex network dynamics:
 Neurosensory integration in the Caenorhabditis elegans connectome', Phys. Rev. E, vol. 89,
-p. 052805, 5 May 2014. DOI : 10.1103/PhysRevE.89.052805
+p. 052805, 5 May 2014. DOI: [[10.1103/PhysRevE.89.052805][10.1103/PhysRevE.89.052805]].
 
 ** 5-neuron circuit
-File: Kunert_5neurons_Iconst
-
-Imports:
-- aux_function.py
-- Wicks_model.py
++ File:
+  - Kunert_5neurons_Iconst
++ Imports:
+  - aux_function.py
+  - Wicks_model.py
 
 ** Whole connectome experiments
-File: Kunert_top5
++ File:
+  - Kunert_top5
 
-Imports:
-- aux_function.py
-- Brian2_experiment.py
-- Wicks_model.py
++ Imports:
+  - aux_function.py
+  - Brian2_experiment.py
+  - Wicks_model.py
 
 *** Bifurcation
 File: Kunert_bifurcation.py
