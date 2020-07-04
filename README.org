@@ -1,6 +1,6 @@
-#+TITLE: Replication in /Brain 2/ of C. elegans models
+Ôªø#+TITLE: Replication in /Brain 2/ of C. elegans models
 
-#+AUTHOR: Iv·n EstÈvez Albuja
+#+AUTHOR: Iv√°n Est√©vez Albuja
 
 
 Code generated for the thesis 'Brain-Inspired Computing'
@@ -57,6 +57,7 @@ p. 052805, 5 May 2014. DOI: [[https://link.aps.org/doi/10.1103/PhysRevE.89.05280
   - aux_function.py
   - Brian2_experiment.py
   - Wicks_model.py
+  - /connectome_data
 
 *** Bifurcation
 + File: Kunert_bifurcation.py
