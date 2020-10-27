@@ -2,8 +2,11 @@
 
 #+AUTHOR: Iván Estévez Albuja
 
+Replication of two computational models of locomotion of Caenorhabditis elegans in Brian 2.
 
 Code generated for the thesis 'Brain-Inspired Computing'
+
+
 * Experiments from Izquierdo et al. (2018)
 
 E. O. Olivares, E. J. Izquierdo and R. D. Beer, 'Potential role of a ventral nerve cord central
